@@ -163,7 +163,7 @@ const getAllOrders = async (req, res) => {
 };
 
 // Set up multer for file handling
-const upload = multer({ dest: 'uploads/' });
+const upload = multer({ dest: '/tmp/uploads/' });
 
 // const orderstatuschange = async (req, res) => {
 //   const uploadSingle = upload.single('file');
